@@ -15,6 +15,9 @@ st.write("""
 with st.sidebar:
     # Título para la sección de opciones en la barra lateral.
     st.write("# Opciones")
+    if st.button("cambiar colores"):
+        colores = np.random.rand(3, 3).tolist()
+    
     
     # Crea un control deslizante (slider) que permite al usuario seleccionar un número de bins
     # en el rango de 0 a 10, con un valor predeterminado de 2.
