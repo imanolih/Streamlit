@@ -7,7 +7,8 @@ with st.container():
 with st.container():
   st.sidebar.title("mi titulo lateral")
   st.sidebar.image('2021_Facebook_icon.svg.png')
-  user_imput = st.sidebar.text_input("escribe algo en la barra")
-  st.sidebar.write("escribe algo en la barra", user_imput)
+  user_imput = st.sidebar.text_input("Ingrese su Email")
+  st.sidebar.write("ingrese su email", user_imput)
+    
   
   
