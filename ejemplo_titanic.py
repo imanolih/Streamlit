@@ -10,10 +10,10 @@ with st.container():
 
 with st.container():
     st.sidebar.title("mi titulo lateral")
-    st.sidebar.write("terminos y condiciones")
     st.sidebar.image('2021_Facebook_icon.svg.png')
     user_input = st.sidebar.text_input("Email")
     user_input = st.sidebar.text_input("Contraseña")
+    st.sidebar.write("terminos y condiciones")
       
   
     
