@@ -9,12 +9,12 @@ with st.container():
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
 
 with st.container():
-  st.sidebar.title("mi titulo lateral")
-  st.sidebar.image('2021_Facebook_icon.svg.png')
-  user_input = st.sidebar.text_input("Email")
-  user_input = st.sidebar.text_input("Contraseña")
+    st.sidebar.title("mi titulo lateral")
     st.write("terminos y condiciones")
-  
+    st.sidebar.image('2021_Facebook_icon.svg.png')
+    user_input = st.sidebar.text_input("Email")
+    user_input = st.sidebar.text_input("Contraseña")
+      
   
     
   
