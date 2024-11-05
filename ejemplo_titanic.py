@@ -14,9 +14,6 @@ with st.container():
         }
     </style>
 """, unsafe_allow_html=True)
-
-# Crear un contenedor para la imagen de portada
-st.markdown('<div class="header"></div>', unsafe_allow_html=True)
   titulo = st.text_input("Escribe el título de la página:", "Título predeterminado")
   st.title("mi pagina web")
 with st.container():
