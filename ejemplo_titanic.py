@@ -8,7 +8,6 @@ with st.container():
   st.sidebar.title("mi titulo lateral")
   st.sidebar.image('2021_Facebook_icon.svg.png')
   user_imput = st.sidebar.text_input("Ingrese su Email")
-  st.sidebar.write("ingrese su email", user_imput)
     
   
   
