@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 with st.container():
-    imagen = "images.png"
+    imagen = "1723789395old-facebook-logo-png.png"
     st.image(imagen, use_column_width=True)
     st.title("Página con Imagen de Portada")
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
