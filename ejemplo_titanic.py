@@ -9,7 +9,7 @@ import streamlit as st
 st.markdown("""
     <style>
         .header {
-            background-image: url(''); /* URL de la imagen */
+            background-image: url('images.png'); /* URL de la imagen */
             background-size: cover; /* La imagen cubrirá toda la zona */
             background-position: center; /* Centrar la imagen */
             height: 300px; /* Altura de la imagen (ajusta según lo que necesites) */
