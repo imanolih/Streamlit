@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 with st.container():
-import streamlit as st
 
 # Inyectar CSS para colocar la imagen de portada en la parte superior
 st.markdown("""
