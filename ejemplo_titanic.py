@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 with st.container():
     imagen = "images.png"
-    st.image(image, width=600)
+    st.image(imagen, width=600)
     st.title("Página con Imagen de Portada")
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
 
