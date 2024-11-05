@@ -7,6 +7,7 @@ with st.container():
     st.image(imagen, use_column_width=True)
     st.title("Página con Imagen de Portada")
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
+    st.subheader("terminos y condiciones")
 
 with st.container():
   st.sidebar.title("mi titulo lateral")
