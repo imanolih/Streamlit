@@ -13,7 +13,7 @@ with st.container():
     st.sidebar.image('2021_Facebook_icon.svg.png')
     user_input = st.sidebar.text_input("Email")
     user_input = st.sidebar.text_input("Contraseña")
-    st.sidebar.write("[terminos y condiciones](https://www.facebook.com/policies_center/")
+    st.sidebar.write("[terminos y condiciones](https://www.facebook.com/policies_center/)")
       
   
     
