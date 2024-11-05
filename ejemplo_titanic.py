@@ -3,10 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 with st.container():
-    # Cargar imagen local
-image = Image.open("images.png")
-# Mostrar la imagen
-st.image(image, use_column_width=True)
+    imagen = "images.png"
+    st.image(imagen)
     st.title("Página con Imagen de Portada")
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
 
