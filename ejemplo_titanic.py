@@ -3,23 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 with st.container():
-
-    st.markdown("""
-        <style>
-            .header {
-                background-image: url('images.png'); /* URL de la imagen */
-                background-size: cover; /* La imagen cubrirá toda la zona */
-                background-position: center; /* Centrar la imagen */
-                height: 300px; /* Altura de la imagen (ajusta según lo que necesites) */
-                width: 100%; /* Asegura que la imagen ocupe todo el ancho */
-            }
-        </style>
-    """, unsafe_allow_html=True)
-    
-    # Crear un contenedor para la imagen de portada
-    st.markdown('<div class="header"></div>', unsafe_allow_html=True)
-    
-    # Agregar más contenido a la página
+    # Cargar imagen local
+image = Image.open("images.png")
+# Mostrar la imagen
+st.image(image, use_column_width=True)
     st.title("Página con Imagen de Portada")
     st.write("Este es un ejemplo de cómo colocar una imagen en la parte superior que ocupe toda la anchura de la página.")
 
