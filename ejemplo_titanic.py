@@ -52,6 +52,7 @@ with col3:
     st.image("facebook-logo-facebook-icon-transparent-free-png.webp")
     st.markdown("<div style='text-align: center;'>FACEBOOK</div>", unsafe_allow_html=True)
 with st.container():
+    st.sidebar.title("SELECCIONAR PAGINA")
     st.sidebar.write("---")
     seleccion_pagina = st.sidebar.selectbox("Selecciona una página disponible:", paginas_disponibles)
     if seleccion_pagina:
