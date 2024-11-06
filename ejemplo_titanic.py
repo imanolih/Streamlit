@@ -12,7 +12,7 @@ with col1:
     st.image("youtube-logo-youtube-icon-transparent-free-png.webp")
     st.write("YOUTUBE")
 with col2:
-    st.image()
+    st.image("png-clipart-computer-icons-facebook-inc-social-media-logo-facebook-rectangle-logo-thumbnail.png")
     st.write("FACEBOOK")
       
   
