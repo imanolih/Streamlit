@@ -35,7 +35,7 @@ if buscar:
         st.error(f"La página no está en la lista de páginas disponibles.")
 with st.container():
     st.sidebar.write("---")
-    seleccion_pagina = st.selectbox("Selecciona una página disponible:", paginas_disponibles)
+    seleccion_pagina = st.sidebar.selectbox("Selecciona una página disponible:", paginas_disponibles)
     
     
   
