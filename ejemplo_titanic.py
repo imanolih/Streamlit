@@ -64,9 +64,9 @@ with st.container():
     st.sidebar.write("---")
     seleccion_pagina = st.sidebar.selectbox("Selecciona una página disponible:", paginas_disponibles)
     if seleccion_pagina:
-    url = paginas_disponibles[seleccion_pagina]
-    st.markdown(f"[Ir a {seleccion_pagina.capitalize()}]({url})", unsafe_allow_html=True)
-    st.success(f"Has seleccionado la página: '{seleccion_pagina}'.")
-    
+        url = paginas_disponibles[seleccion_pagina]
+        st.markdown(f"[Ir a {seleccion_pagina.capitalize()}]({url})", unsafe_allow_html=True)
+        st.success(f"Has seleccionado la página: '{seleccion_pagina}'.")
+        
     
   
