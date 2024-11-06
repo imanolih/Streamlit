@@ -3,9 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 paginas_disponibles = [
     "youtube", "whatsapp", "facebook", "twitter", "instagram", 
-    "linkedin", "pinterest", "reddit", "snapchat", 
-    "amazon", "ebay", "netflix", "spotify", "wikipedia", 
-    "google", "gmail", "outlook", "dropbox", "github",
+    "linkedin", "pinterest", "amazon", "ebay", "netflix", "spotify", "wikipedia", "google", "gmail", "outlook", "dropbox", "github",
 ]
 
 with st.container():
@@ -32,8 +30,25 @@ with st.container():
     buscar = st.sidebar.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
 if buscar:
     if buscar.lower() in paginas_disponibles:
-        st.success(f"La página 'buscar' está disponible.")
+        st.success(f"La página está disponible.")
     else:
-        st.error(f"La página 'buscar' no está en la lista de páginas disponibles.")
-  
+        st.error(f"La página no está en la lista de páginas disponibles.")
+with st.container():
+    st.write("youtube")
+    st.write("whatsapp")
+    st.write("facebook")
+    st.write("twitter")
+    st.write("instagram")
+    st.write("linkedin")
+    st.write("pinterest")
+    st.write("wikipedia")
+    st.write("google")
+    st.write("gmail")
+    st.write("outlook")
+    st.write("dropbox")
+    st.write("github")
+    st.write("amazon")
+    st.write("ebay")
+    
+    
   
