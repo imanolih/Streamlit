@@ -52,15 +52,6 @@ with col3:
     st.image("facebook-logo-facebook-icon-transparent-free-png.webp")
     st.markdown("<div style='text-align: center;'>FACEBOOK</div>", unsafe_allow_html=True)
 with st.container():
-    st.sidebar.title("MAS OPCIONES")
-    st.sidebar.write("---")
-    buscar = st.sidebar.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
-if buscar:
-    if buscar.lower() in paginas_disponibles:
-        st.success(f"La página está disponible.")
-    else:
-        st.error(f"La página no está en la lista de páginas disponibles.")
-with st.container():
     st.sidebar.write("---")
     seleccion_pagina = st.sidebar.selectbox("Selecciona una página disponible:", paginas_disponibles)
     if seleccion_pagina:
