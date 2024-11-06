@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+paginas_disponibles = [
+    "youtube", "whatsapp", "facebook", "twitter", "instagram", 
+    "linkedin", "pinterest", "reddit", "snapchat", 
+    "amazon", "ebay", "netflix", "spotify", "wikipedia", 
+    "google", "gmail", "outlook", "dropbox", "github",
+]
 
 with st.container():
     st.title("REDIRIGIDOR DE PAGINAS WEB")
@@ -23,6 +29,11 @@ with col3:
 with st.container():
     st.sidebar.title("MAS OPCIONES")
     st.sidebar.write("---")
-    search_term = st.sidebar.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
+    buscar = st.sidebar.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
+if buscar:
+    if buscar.lower() in paginas_disponibles:
+        st.success(f"La página 'buscar' está disponible.")
+    else:
+        st.error(f"La página 'buscar' no está en la lista de páginas disponibles.")
   
   
