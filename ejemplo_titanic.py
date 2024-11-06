@@ -7,7 +7,10 @@ with st.container():
     st.subheader("Podras dirigirte a las paginas mas utilizadas")
 with st.container():
     st.write("---")
-    st.colums(1, 6)
+    col1, col2, col3 = st.columns(3)
+    with col1():
+        st.write(" ")
+        st.image(" ")
     
       
   
