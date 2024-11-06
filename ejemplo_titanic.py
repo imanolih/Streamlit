@@ -11,6 +11,9 @@ with st.container():
 with col1:
     st.image("youtube-logo-youtube-icon-transparent-free-png.webp")
     st.write("YOUTUBE")
+with col2:
+    st.image()
+    st.write("FACEBOOK")
       
   
     
