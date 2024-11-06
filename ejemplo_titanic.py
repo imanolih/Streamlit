@@ -14,6 +14,8 @@ with col1:
 with col2:
     st.image("whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp")
     st.write("FACEBOOK")
+with col3:
+    st.image("facebook-logo-facebook-icon-transparent-free-png.webp")
       
   
     
