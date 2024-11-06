@@ -23,6 +23,6 @@ with col3:
 with st.container():
     st.sidebar.title("MAS OPCIONES")
     st.sidebar.write("---")
-    search_term = st.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
+    search_term = st.sidebar.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
   
   
