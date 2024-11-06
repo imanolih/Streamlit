@@ -34,21 +34,8 @@ if buscar:
     else:
         st.error(f"La página no está en la lista de páginas disponibles.")
 with st.container():
-    st.sidebar.write("youtube")
-    st.sidebar.write("whatsapp")
-    st.sidebar.write("facebook")
-    st.sidebar.write("twitter")
-    st.sidebar.write("instagram")
-    st.sidebar.write("linkedin")
-    st.sidebar.write("pinterest")
-    st.sidebar.write("wikipedia")
-    st.sidebar.write("google")
-    st.sidebar.write("gmail")
-    st.sidebar.write("outlook")
-    st.sidebar.write("dropbox")
-    st.sidebar.write("github")
-    st.sidebar.write("amazon")
-    st.sidebar.write("ebay")
+    st.sidebar.write("---")
+    seleccion_pagina = st.selectbox("Selecciona una página disponible:", paginas_disponibles)
     
     
   
