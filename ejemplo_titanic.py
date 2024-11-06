@@ -10,7 +10,7 @@ with st.container():
     col1, col2, col3 = st.columns(3)
     with col1():
         st.write("YOUTUBE ")
-        st.image(" ")
+        st.image("youtube-logo-youtube-icon-transparent-free-png.webp")
     
       
   
