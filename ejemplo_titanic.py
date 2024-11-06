@@ -5,6 +5,33 @@ paginas_disponibles = [
     "youtube", "whatsapp", "facebook", "twitter", "instagram", 
     "linkedin", "pinterest", "amazon", "ebay", "netflix", "spotify", "wikipedia", "google", "gmail", "outlook", "dropbox", "github",
 ]
+paginas_disponibles = {
+    "youtube": "https://www.youtube.com",
+    "whatsapp": "https://web.whatsapp.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com",
+    "instagram": "https://www.instagram.com",
+    "linkedin": "https://www.linkedin.com",
+    "tiktok": "https://www.tiktok.com",
+    "pinterest": "https://www.pinterest.com",
+    "reddit": "https://www.reddit.com",
+    "snapchat": "https://www.snapchat.com",
+    "amazon": "https://www.amazon.com",
+    "ebay": "https://www.ebay.com",
+    "netflix": "https://www.netflix.com",
+    "spotify": "https://www.spotify.com",
+    "wikipedia": "https://www.wikipedia.org",
+    "google": "https://www.google.com",
+    "gmail": "https://mail.google.com",
+    "yahoo": "https://www.yahoo.com",
+    "bing": "https://www.bing.com",
+    "outlook": "https://outlook.live.com",
+    "zoom": "https://zoom.us",
+    "dropbox": "https://www.dropbox.com",
+    "github": "https://github.com",
+    "stackoverflow": "https://stackoverflow.com",
+    "twitch": "https://www.twitch.tv"
+}
 
 with st.container():
     st.title("REDIRIGIDOR DE PAGINAS WEB")
@@ -36,6 +63,10 @@ if buscar:
 with st.container():
     st.sidebar.write("---")
     seleccion_pagina = st.sidebar.selectbox("Selecciona una página disponible:", paginas_disponibles)
+    if seleccion_pagina:
+    url = paginas_disponibles[seleccion_pagina]
+    st.markdown(f"[Ir a {seleccion_pagina.capitalize()}]({url})", unsafe_allow_html=True)
+    st.success(f"Has seleccionado la página: '{seleccion_pagina}'.")
     
     
   
