@@ -22,7 +22,6 @@ with col3:
     st.markdown("<div style='text-align: center;'>FACEBOOK</div>", unsafe_allow_html=True)
 with st.container():
     st.sidebar.title("MAS OPCIONES")
-with st.container():
     st.sidebar.write("---")
     search_term = st.text_input("Buscar página:", placeholder="Escribe el nombre de la página...")
   
