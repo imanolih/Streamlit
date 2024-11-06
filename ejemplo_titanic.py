@@ -8,9 +8,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    col1, col2, col3, col4 = st.columns(4)
-
-# Agregar contenido a cada columna
+    col1, col2, col3 = st.columns(3)
 with col1:
     st.image("youtube-logo-youtube-icon-transparent-free-png.webp")
     st.markdown("<div style='text-align: center;'>YOUTUBE</div>", unsafe_allow_html=True)
@@ -22,11 +20,8 @@ with col2:
 with col3:
     st.image("facebook-logo-facebook-icon-transparent-free-png.webp")
     st.markdown("<div style='text-align: center;'>FACEBOOK</div>", unsafe_allow_html=True)
-
-with col4:
-    st.image("twitter-logo-twitter-icon-transparent-free-png.webp")
-    st.markdown("<div style='text-align: center;'>TWITTER</div>", unsafe_allow_html=True)
-
+with st.container():
+    st.sidebar.title("MAS OPCIONES")
     
   
   
